@@ -19,14 +19,14 @@
       "name": "myInputBlob",
       "type": "blob",
       "path": "incontainer/{name}",
-      "connection": "MyStorageConnectionAppSetting",
+      "connection": "AzureWebJobsStorage",
       "direction": "in"
     },
     {
       "name": "myOutputBlob",
       "type": "blob",
       "path": "outcontainer/{name}",
-      "connection": "MyStorageConnectionAppSetting",
+      "connection": "AzureWebJobsStorage",
       "direction": "out"
     }
   ]
